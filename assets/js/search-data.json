@@ -3,10 +3,10 @@
     
         "post0": {
             "title": "Brian's First Post",
-            "content": "Test of Markdown . class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello, World!&quot;); } } .",
-            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/21/test-markdown-post.html",
-            "relUrl": "/markdown/2022/08/21/test-markdown-post.html",
-            "date": " • Aug 21, 2022"
+            "content": "Review Tickets . Week 0 Review Ticket .",
+            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/22/test-markdown-post.html",
+            "relUrl": "/markdown/2022/08/22/test-markdown-post.html",
+            "date": " • Aug 22, 2022"
         }
         
     
@@ -14,9 +14,9 @@
     
         ,"post1": {
             "title": "Brian's First Post",
-            "content": "Review Tickets . Week 0 Review Ticket .",
-            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/21/review-tickets-post.html",
-            "relUrl": "/markdown/2022/08/21/review-tickets-post.html",
+            "content": "Test of Markdown . class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello, World!&quot;); } } .",
+            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/21/test-markdown-post.html",
+            "relUrl": "/markdown/2022/08/21/test-markdown-post.html",
             "date": " • Aug 21, 2022"
         }
         
