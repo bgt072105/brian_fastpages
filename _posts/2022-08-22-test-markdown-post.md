@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: A minimal example of using markdown with fastpages.
+description: All of Brian's Review Tickets in one place
 categories: [markdown]
 title: Brian's Review Tickets
 ---
