@@ -24,7 +24,7 @@
   
     
         ,"post2": {
-            "title": "Java Notebook",
+            "title": "Python Notebook",
             "content": "class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello, World!&quot;); } } .",
             "url": "https://bgt072105.github.io/super-barnacle/2022/08/21/Java.html",
             "relUrl": "/2022/08/21/Java.html",
