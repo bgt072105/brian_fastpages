@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "An Example Markdown Post",
-            "content": "",
+            "title": "Brian's First Post",
+            "content": "Test of Markdown . class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello, World!&quot;); } } .",
             "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/21/test-markdown-post.html",
             "relUrl": "/markdown/2022/08/21/test-markdown-post.html",
             "date": " • Aug 21, 2022"
