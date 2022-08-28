@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "Java Notebook",
+            "title": "Primitives Notebook",
             "content": "import java.util.Scanner; public class Primitives { public static void main(String[] args) { int GradePointTotal = 0; int NumberOfClasses = 0; Scanner GradePointScanner = new Scanner(System.in); // Create a Scanner object boolean TakingInputs = true; while (TakingInputs) { System.out.println(&quot;Enter grade points or enter 9 when finished to calculate&quot;); int GradePoint = GradePointScanner.nextInt(); // Read user input if (GradePoint == 9){ TakingInputs = false; } else{ GradePointTotal += GradePoint; NumberOfClasses += 1; } } double GradePointAverage = (double) GradePointTotal / NumberOfClasses; System.out.println(&quot;Grade Point Total: &quot; + GradePointTotal); System.out.println(&quot;Number of Classes: &quot; + NumberOfClasses); System.out.println(&quot;Grade Point Average: &quot; + GradePointAverage); } } Primitives.main(null) . Enter grade points or enter 9 to quit .",
             "url": "https://bgt072105.github.io/super-barnacle/2022/08/27/primitives.html",
             "relUrl": "/2022/08/27/primitives.html",
