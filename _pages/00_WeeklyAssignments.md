@@ -10,7 +10,7 @@ title: Assignments
     <tr>
      <th>Week</th>
      <th>Assignment</th>
-     <th>Tangible Blog</th>
+<!--      <th>Tangible Blog</th> -->
      <th>Issues</th>
     </tr>
 
@@ -19,7 +19,7 @@ title: Assignments
         <td><a href="https://nighthawkcoders.github.io/APCSA/techtalk/fastpages">Fastpages</a>,
             <a href="https://nighthawkcoders.github.io/APCSA/techtalk/bash">Bash</a>,
             <a href="https://nighthawkcoders.github.io/APCSA/unit/1">Primitives</a></td>
-        <td><a href="{{site.baseurl}}">Blog Post With Tangibles</a></td>
+<!--         <td><a href="{{site.baseurl}}">Blog Post With Tangibles</a></td> -->
         <td><a href="">Github Issue</a></td>
         
     </tr>
@@ -27,7 +27,7 @@ title: Assignments
     <tr>
         <td>0</td>
         <td><a href="https://nighthawkcoders.github.io/APCSA/techtalk/tools">Tools and Equipment</a></td>
-        <td><a href="{{site.baseurl}}">Blog Post With Tangibles</a></td>
+<!--         <td><a href="{{site.baseurl}}">Blog Post With Tangibles</a></td> -->
         <td><a href="">Github Issue</a></td>
         
     </tr>
