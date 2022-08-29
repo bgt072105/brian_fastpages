@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 permalink: /PBL/
 title: PBL
 ---
