@@ -10,7 +10,13 @@ title: CSA Notes
 # Unit One: Primitive Types
 Goal: To learn the fundamentals of Java and other foundational concepts for coding.
 
-
+* The main primitive types focused on by College Board are int, double, and boolean
+* The primitive type that is building block for a String is a single character called char
+* String is an array of char's and the uppercase S in String means it is a Class
+* String is a Non-Primitive data type that is a Class in Java
+* With Java, we use scanner for an input
+* The two keys to programming are inputs and outputs
+* Primitive types rarely ever stand alone
 
 # Unit Two: Using Objects
 Goal: Explore reference data in order to represent real-world objects in a digital world and discover methods to initiate more complex operations
