@@ -152,7 +152,9 @@ window.onload = wrap_img;
         <span class="c1">//     }</span>
         <span class="c1">// }</span>
         <span class="kt">int</span> <span class="n">NumberOfClasses</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+        <span class="c1">// integers are an appropriate measure of the number of classes someone is taking because people can&#39;t take part of a class</span>
         <span class="kt">int</span><span class="o">[]</span> <span class="n">Grades</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">};</span>
+        <span class="c1">// integers are an appropriate measure of grade points as all grades have a corresponding integer value</span>
         <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">NumberOfClasses</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
             <span class="n">GradePointTotal</span> <span class="o">+=</span> <span class="n">Grades</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">;</span>
             <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Grade: &quot;</span> <span class="o">+</span> <span class="n">Grades</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">);</span>
@@ -161,7 +163,9 @@ window.onload = wrap_img;
         <span class="n">String</span> <span class="n">GPAString</span> <span class="o">=</span> <span class="s">&quot;Grade Point Total: &quot;</span> <span class="o">+</span> <span class="n">GradePointTotal</span><span class="p">;</span>
         <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">GPAString</span><span class="p">);</span>
         <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Number of Classes: &quot;</span> <span class="o">+</span> <span class="n">NumberOfClasses</span><span class="p">);</span>
+        <span class="c1">// integers are casted to a double as GPA can have decimal points</span>
         <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Grade Point Average: &quot;</span> <span class="o">+</span> <span class="n">GradePointAverage</span><span class="p">);</span>
+        <span class="c1">// desired results are printed</span>
     <span class="p">}</span>
   <span class="p">}</span>
   <span class="n">Primitives</span><span class="p">.</span><span class="na">main</span><span class="p">(</span><span class="kc">null</span><span class="p">)</span>
