@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: Notes and Big Ideas for CSA
 categories: [markdown]
 title: CSA Notes 
