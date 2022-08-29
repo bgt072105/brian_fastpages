@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description: All of Brian's Review Tickets in one place
+comments: true
 categories: [markdown]
 title: Brian's Review Tickets
 ---
