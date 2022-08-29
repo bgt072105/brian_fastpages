@@ -511,6 +511,18 @@ end of README.md
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Verifying-Python-and-Java-Installations">Verifying Python and Java Installations<a class="anchor-link" href="#Verifying-Python-and-Java-Installations"> </a></h2>
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -518,8 +530,14 @@ end of README.md
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>python --version
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;Verifying Java:&quot;</span>
+java --version
+javac --version
+
+<span class="nb">echo</span> <span class="s2">&quot;Verifying Python:&quot;</span>
+python --version
 python2 --version
+python3 --version
 </pre></div>
 
     </div>
@@ -532,8 +550,15 @@ python2 --version
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Python 3.9.12
+<pre>Verifying Java:
+openjdk 17.0.4 2022-07-19
+OpenJDK Runtime Environment Temurin-17.0.4+8 (build 17.0.4+8)
+OpenJDK 64-Bit Server VM Temurin-17.0.4+8 (build 17.0.4+8, mixed mode, sharing)
+javac 17.0.4
+Verifying Python:
+Python 3.9.12
 Python 2.7.18
+Python 3.9.12
 </pre>
 </div>
 </div>
@@ -544,6 +569,13 @@ Python 2.7.18
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Verifying Anaconda Installation</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -551,7 +583,8 @@ Python 2.7.18
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>conda list
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;Verifying Anaconda:&quot;</span>
+conda list
 </pre></div>
 
     </div>
@@ -564,7 +597,8 @@ Python 2.7.18
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre># packages in environment at /Users/briantang/opt/anaconda3:
+<pre>Verifying Anaconda:
+# packages in environment at /Users/briantang/opt/anaconda3:
 #
 # Name                    Version                   Build  Channel
 _ipyw_jlab_nb_ext_conf    0.1.0            py39hecd8cb5_1  
@@ -1049,6 +1083,12 @@ jupyterlab_widgets        1.0.0              pyhd3eb1b0_1
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Jupyter-Kernels">Jupyter Kernels<a class="anchor-link" href="#Jupyter-Kernels"> </a></h2>
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -1129,6 +1169,48 @@ Available kernels:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>  python3       /Users/briantang/opt/anaconda3/share/jupyter/kernels/python3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Updating-GitHub-Repo">Updating GitHub Repo<a class="anchor-link" href="#Updating-GitHub-Repo"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> ~
+<span class="nb">cd</span> vscode
+<span class="nb">cd</span> super-barnacle
+git pull https://github.com/bgt072105/super-barnacle.git
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>From https://github.com/bgt072105/super-barnacle
+ * branch            HEAD       -&gt; FETCH_HEAD
+Already up to date.
 </pre>
 </div>
 </div>
