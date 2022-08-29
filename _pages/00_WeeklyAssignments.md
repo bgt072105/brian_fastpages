@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 permalink: /assignments/
 title: Assignments
 ---
