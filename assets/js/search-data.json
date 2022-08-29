@@ -37,8 +37,8 @@
         ,"post3": {
             "title": "Brian's Review Tickets",
             "content": "Review Tickets . Week 0 Review Ticket .",
-            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/22/test-markdown-post.html",
-            "relUrl": "/markdown/2022/08/22/test-markdown-post.html",
+            "url": "https://bgt072105.github.io/super-barnacle/markdown/2022/08/22/review-tickets-post.html",
+            "relUrl": "/markdown/2022/08/22/review-tickets-post.html",
             "date": " • Aug 22, 2022"
         }
         
@@ -117,9 +117,7 @@
   
 
   
-
-  
-      ,"page6": {
+      ,"page5": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://bgt072105.github.io/super-barnacle/about/",
@@ -127,6 +125,8 @@
           "date": ""
       }
       
+  
+
   
 
   
