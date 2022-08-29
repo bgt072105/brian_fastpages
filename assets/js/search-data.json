@@ -4,9 +4,9 @@
         "post0": {
             "title": "Primitives Notebook",
             "content": "import java.util.Scanner; public class Primitives { public static void main(String[] args) { int GradePointTotal = 0; int NumberOfClasses = 0; Scanner GradePointScanner = new Scanner(System.in); // Create a Scanner object boolean TakingInputs = true; while (TakingInputs) { System.out.println(&quot;Enter grade points or enter 9 when finished to calculate&quot;); int GradePoint = GradePointScanner.nextInt(); // Read user input if (GradePoint == 9){ TakingInputs = false; } else{ GradePointTotal += GradePoint; NumberOfClasses += 1; } } double GradePointAverage = (double) GradePointTotal / NumberOfClasses; System.out.println(&quot;Grade Point Total: &quot; + GradePointTotal); System.out.println(&quot;Number of Classes: &quot; + NumberOfClasses); System.out.println(&quot;Grade Point Average: &quot; + GradePointAverage); } } Primitives.main(null) . Enter grade points or enter 9 to quit .",
-            "url": "https://bgt072105.github.io/super-barnacle/2022/08/27/primitives.html",
-            "relUrl": "/2022/08/27/primitives.html",
-            "date": " • Aug 27, 2022"
+            "url": "https://bgt072105.github.io/super-barnacle/2022/08/28/primitives.html",
+            "relUrl": "/2022/08/28/primitives.html",
+            "date": " • Aug 28, 2022"
         }
         
     
@@ -15,9 +15,9 @@
         ,"post1": {
             "title": "Python Notebook",
             "content": "msg = &quot;Hello, world!&quot; print(msg) . Hello, world! .",
-            "url": "https://bgt072105.github.io/super-barnacle/2022/08/27/Python.html",
-            "relUrl": "/2022/08/27/Python.html",
-            "date": " • Aug 27, 2022"
+            "url": "https://bgt072105.github.io/super-barnacle/2022/08/28/Python.html",
+            "relUrl": "/2022/08/28/Python.html",
+            "date": " • Aug 28, 2022"
         }
         
     
@@ -26,9 +26,9 @@
         ,"post2": {
             "title": "Java Notebook",
             "content": "class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello, World!&quot;); } } System.out.println(&quot;Hello, World!&quot;); . Hello, World! .",
-            "url": "https://bgt072105.github.io/super-barnacle/2022/08/27/Java.html",
-            "relUrl": "/2022/08/27/Java.html",
-            "date": " • Aug 27, 2022"
+            "url": "https://bgt072105.github.io/super-barnacle/2022/08/28/Java.html",
+            "relUrl": "/2022/08/28/Java.html",
+            "date": " • Aug 28, 2022"
         }
         
     
@@ -83,6 +83,17 @@
 
   
       ,"page1": {
+          "title": "Assignments",
+          "content": "Trimester 1 - Weekly Assignments . . Week Assignment Tangible Blog Issues . 1 | Fastpages, Bash, Primitives | Blog Post With Tangibles | Github Issue | . 0 | Tools and Equipment | Blog Post With Tangibles | Github Issue | .",
+          "url": "https://bgt072105.github.io/super-barnacle/assignments/",
+          "relUrl": "/assignments/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://bgt072105.github.io/super-barnacle/about/",
@@ -114,7 +125,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://bgt072105.github.io/super-barnacle/robots.txt",
