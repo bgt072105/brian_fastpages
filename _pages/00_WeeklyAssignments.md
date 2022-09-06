@@ -13,7 +13,13 @@ title: Assignments
 <!--      <th>Tangible Blog</th> -->
      <th>Issues</th>
     </tr>
-
+    <tr>
+        <td>2</td>
+        <td><a href="https://nighthawkcoders.github.io/APCSA/unit/2">Using Objects</a></td>
+        <td><a href="{{site.baseurl}}">Blog Post With Tangibles</a></td>
+        <td><a href="https://github.com/bgt072105/super-barnacle/issues/4">Github Issue</a></td>
+        
+    </tr>
     <tr>
         <td>1</td>
         <td><a href="https://nighthawkcoders.github.io/APCSA/techtalk/fastpages">Fastpages</a>,
