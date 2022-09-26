@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<div id="posts"></div>
+  </body>
+  <script>
+    var input = [
+        {"title": "First Post", "body": "This is my first post!"},
+        {"title": "Second Post", "body": "This is my second post!"},
+        {"title": "Third Post", "body": "This is my third post!"},
+    ];
+    var posts = document.getElementById("posts");
+    for(let i in input){
+        let title = document.createElement("p");
+        let body = document.createElement("body");
+        title.innerHTML = "<b>" + input[i].title + "</b>";
+        body.innerHTML = input[i].body;
+        posts.appendChild(title);
+        posts.appendChild(body);
+    }
+  </script>
+</html>
