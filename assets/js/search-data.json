@@ -13,10 +13,10 @@
   
     
         ,"post1": {
-            "title": "Grading",
-            "content": "- toc: false - badges: true - comments: true - categories: [java, labs] - image: images/arrayList.jpeg .",
-            "url": "https://bgt072105.github.io/super-barnacle/2022/12/14/recursionGrading.html",
-            "relUrl": "/2022/12/14/recursionGrading.html",
+            "title": "Unit 10 Lesson on Inheritance",
+            "content": "Grading . Link to our grading .",
+            "url": "https://bgt072105.github.io/super-barnacle/java/labs/2022/12/14/recursionGrading.html",
+            "relUrl": "/java/labs/2022/12/14/recursionGrading.html",
             "date": " • Dec 14, 2022"
         }
         
